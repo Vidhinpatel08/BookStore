@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.signup-title {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 30px;
+}
+
+.input-grp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-grp>span {
+  display: flex;
+}
+
+.input-grp>span>div {
+  width: 100px;
+}
+
+.btns {
+  display: flex;
+  gap: 25px;
+}
+
+
+button {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.navbar>.title {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 90%;
+  background-color: green;
+  font-size: 23px;
+}
+
+.navbar>.logout {
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 10%;
+  background-color: rgb(118, 181, 223);
+}
+
+.serchpanel {
+  width: 100%;
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.serchpanel>.search-inp {
+  width: 80%;
+  font-size: 20px;
+  border: 1px solid red;
+  margin-left: 5px;
+  border-radius: 15px;
+}
+
+.serchpanel>.AddBook {
+  width: 10%;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 20px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 195, 127);
+  border-radius: 15px;
+}
+
+.Book-table{
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  margin: 30px 5px;
+}
+
+table{
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+}
